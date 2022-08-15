@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajab Invoice</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body class="">
+    <!-- Page Preloder -->
+    <div class="header fixed-top bg-light" style="height: 8rem;">
+        <header class="header ">
+
+            <div class="container">
+                <div class="row" style="height: 5rem;">
+                    <div class="col-lg-3">
+                        <div class="header__logo">
+                            <a href="./index.html"><img
+                                    src="https://images-platform.99static.com//y0rb96b9CUsj6F8lqnkVOPlBuyY=/0x0:999x999/fit-in/500x500/99designs-contests-attachments/109/109048/attachment_109048124"
+                                    height="70" width="160" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 p-3">
+                        <a href="index.html"><button class="btn btn-light px-5 mx-auto">Home</button></a>
+                        <a href="productlist.html"><button class="btn btn-light px-4 mx-2">All Product</button></a>
+                        <a href="contact.html"><button class="btn btn-light  px-4 mx-2">Contact Us</button></a>
+                        <a href="about.html"><button class="btn btn-light px-5 mx-auto">About</button></a>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="header__cart">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            </ul>
+                            <div class="header__top__right__auth">
+                                <a href="#"><i class="fa fa-user"></i> Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="humberger__open">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Header Section End -->
+
+        <!-- Hero Section Begin -->
+        <section class="hero hero-normal" style="height: 3rem;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="hero__categories">
+                            <div class="hero__categories__all">
+                                <i class="fa fa-bars"></i>
+                                <span>Category</span>
+                            </div>
+                            <ul>
+                                <li><a href="#">Grocery</a></li>
+                                <li><a href="#">Kitchen Applicens</a></li>
+                                <li><a href="#">Toys & Games</a></li>
+                                <li><a href="#">Sports & Fittenss</a></li>
+                                <li><a href="#">Mobiles & Accessories</a></li>
+                                <li><a href="#">Books</a></li>
+                                <li><a href="#">Furniture</a></li>
+                                <li><a href="#">Other</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <form class="navbar-left navbar-form nav-search mr-md-3" action="">
+                            <div class="input-group">
+                                <input type="text" placeholder="Search ..." class="form-control">
+                                <button class="btn btn-secondary " type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Shoping Cart Section Begin -->
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div id="invoice">
+                    <div class="toolbar hidden-print">
+                        <div class="text-end">
+                            <button type="button" class="btn btn-dark"><i class="fa fa-print"></i> Print</button>
+                            <button type="button" class="btn btn-danger"><i class="fa fa-file-pdf-o"></i> Export as
+                                PDF</button>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="invoice overflow-auto">
+                        <div style="min-width: 600px">
+                            <header>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="javascript:;">
+                                            <img src="assets/images/logo-icon.png" width="80" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col company-details">
+                                        <h2 class="name">
+                                            <a target="_blank" href="javascript:;">
+                                                Arboshiki
+                                            </a>
+                                        </h2>
+                                        <div>455 Foggy Heights, AZ 85004, US</div>
+                                        <div>(123) 456-789</div>
+                                        <div>company@example.com</div>
+                                    </div>
+                                </div>
+                            </header>
+                            <main>
+                                <div class="row contacts">
+                                    <div class="col invoice-to">
+                                        <div class="text-gray-light">INVOICE TO:</div>
+                                        <h2 class="to">John Doe</h2>
+                                        <div class="address">796 Silver Harbour, TX 79273, US</div>
+                                        <div class="email"><a href="mailto:john@example.com">john@example.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="col invoice-details">
+                                        <h1 class="invoice-id">INVOICE 3-2-1</h1>
+                                        <div class="date">Date of Invoice: 01/10/2018</div>
+                                        <div class="date">Due Date: 30/10/2018</div>
+                                    </div>
+                                </div>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th class="text-left">DESCRIPTION</th>
+                                            <th class="text-right">HOUR PRICE</th>
+                                            <th class="text-right">HOURS</th>
+                                            <th class="text-right">TOTAL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="no">04</td>
+                                            <td class="text-left">
+                                                <h3>
+                                                    <a target="_blank" href="javascript:;">
+                                                        Youtube channel
+                                                    </a>
+                                                </h3>
+                                                <a target="_blank" href="javascript:;">
+                                                    Useful videos
+                                                </a> to improve your Javascript skills. Subscribe and stay tuned :)
+                                            </td>
+                                            <td class="unit">৳0.00</td>
+                                            <td class="qty">100</td>
+                                            <td class="total">৳0.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="no">01</td>
+                                            <td class="text-left">
+                                                <h3>Website Design</h3>Creating a recognizable design solution based on
+                                                the company's existing visual identity
+                                            </td>
+                                            <td class="unit">৳40.00</td>
+                                            <td class="qty">30</td>
+                                            <td class="total">৳1,200.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="no">02</td>
+                                            <td class="text-left">
+                                                <h3>Website Development</h3>Developing a Content Management System-based
+                                                Website
+                                            </td>
+                                            <td class="unit">৳40.00</td>
+                                            <td class="qty">80</td>
+                                            <td class="total">৳3,200.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="no">03</td>
+                                            <td class="text-left">
+                                                <h3>Search Engines Optimization</h3>Optimize the site for search engines
+                                                (SEO)
+                                            </td>
+                                            <td class="unit">৳40.00</td>
+                                            <td class="qty">20</td>
+                                            <td class="total">৳800.00</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="2"></td>
+                                            <td colspan="2">SUBTOTAL</td>
+                                            <td>৳5,200.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"></td>
+                                            <td colspan="2">TAX 25%</td>
+                                            <td>৳1,300.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"></td>
+                                            <td colspan="2">GRAND TOTAL</td>
+                                            <td>৳6,500.00</td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                                <div class="thanks">Thank you!</div>
+                                <div class="notices">
+                                    <div>NOTICE:</div>
+                                    <div class="notice">A finance charge of 1.5% will be made on unpaid balances after
+                                        30 days.</div>
+                                </div>
+                            </main>
+                            <footer>Invoice was created on a computer and is valid without the signature and seal.
+                            </footer>
+                        </div>
+                        <!--DO NOT DELETE THIS div. IT is responsible for showing footer always at the bottom-->
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <a href="index.html">
+            <button type="submit" class="btn btn-success w-100 my-5">Wellcome</button>
+        </a>
+    </div>
+    <!-- Shoping Cart Section End -->
+
+    <!-- Product Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="text-center text-lg-start bg-light text-muted col-sm-12">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center bg-dark justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none text-light d-lg-block">
+                <span>Cotruct With Us :</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div class="text-light">
+                <a href="#"><i class="fa fa-facebook px-4"></i></a>
+                <a href="#"><i class="fa fa-instagram px-4"></i></a>
+                <a href="#"><i class="fa fa-twitter px-4"></i></a>
+                <a href="#"><i class="fa fa-pinterest px-4"></i></a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            shantobepary575@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 7XXXXXXX85</p>
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            Published by- Shanto Bepary
+            <a class="text-reset fw-bold" href="#">sbrs.com.bd</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

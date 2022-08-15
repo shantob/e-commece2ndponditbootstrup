@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ogani Template">
+    <meta name="keywords" content="Ogani, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajab Product List</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div class="header fixed-top bg-light" style="height: 8rem;">
+        <header class="header ">
+
+            <div class="container">
+                <div class="row" style="height: 5rem;">
+                    <div class="col-lg-3">
+                        <div class="header__logo">
+                            <a href="./index.html"><img
+                                    src="https://images-platform.99static.com//y0rb96b9CUsj6F8lqnkVOPlBuyY=/0x0:999x999/fit-in/500x500/99designs-contests-attachments/109/109048/attachment_109048124"
+                                    height="70" width="160" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 p-3">
+                        <a href="index.html"><button class="btn btn-light px-5 mx-auto">Home</button></a>
+                        <a href="productlist.html"><button class="active btn btn-light px-4 mx-2">All Product</button></a>
+                        <a href="contact.html"><button class="btn btn-light px-4 mx-2">Contact Us</button></a>
+                        <a href="about.html"><button class="btn btn-light px-5 mx-auto">About</button></a>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="header__cart">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            </ul>
+                            <div class="header__top__right__auth">
+                                <a href="#"><i class="fa fa-user"></i> Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="humberger__open">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Header Section End -->
+
+        <!-- Hero Section Begin -->
+        <section class="hero hero-normal" style="height: 3rem;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="hero__categories">
+                            <div class="hero__categories__all">
+                                <i class="fa fa-bars"></i>
+                                <span>Category</span>
+                            </div>
+                            <ul>
+                                <li><a href="#">Grocery</a></li>
+                                <li><a href="#">Kitchen Applicens</a></li>
+                                <li><a href="#">Toys & Games</a></li>
+                                <li><a href="#">Sports & Fittenss</a></li>
+                                <li><a href="#">Mobiles & Accessories</a></li>
+                                <li><a href="#">Books</a></li>
+                                <li><a href="#">Furniture</a></li>
+                                <li><a href="#">Other</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <form class="navbar-left navbar-form nav-search mr-md-3" action="">
+                            <div class="input-group">
+                                <input type="text" placeholder="Search ..." class="form-control">
+                                <button class="btn btn-secondary " type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section set-bg" style="margin-top: 12rem;" data-setbg="img/breadcrumb.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>Ajob Shop</h2>
+                        <div class="breadcrumb__option">
+                            <a href="index.html">Home</a>
+                            <span>Shop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Product Section Begin -->
+    <section class="product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-5">
+                    <div class="sidebar">
+                        <div class="sidebar__item">
+                            <h4>Price</h4>
+                            <div class="price-range-wrap">
+                                <div class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
+                                    data-min="10" data-max="540">
+                                    <div class="ui-slider-range ui-corner-all ui-widget-header"></div>
+                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
+                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
+                                </div>
+                                <div class="range-slider">
+                                    <div class="price-input">
+                                        <input type="text" id="minamount">
+                                        <input type="text" id="maxamount">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar__item sidebar__item__color--option">
+                            <h4>Colors</h4>
+                            <div class="sidebar__item__color sidebar__item__color--white">
+                                <label for="white">
+                                    White
+                                    <input type="radio" id="white">
+                                </label>
+                            </div>
+                            <div class="sidebar__item__color sidebar__item__color--gray">
+                                <label for="gray">
+                                    Gray
+                                    <input type="radio" id="gray">
+                                </label>
+                            </div>
+                            <div class="sidebar__item__color sidebar__item__color--red">
+                                <label for="red">
+                                    Red
+                                    <input type="radio" id="red">
+                                </label>
+                            </div>
+                            <div class="sidebar__item__color sidebar__item__color--black">
+                                <label for="black">
+                                    Black
+                                    <input type="radio" id="black">
+                                </label>
+                            </div>
+                            <div class="sidebar__item__color sidebar__item__color--blue">
+                                <label for="blue">
+                                    Blue
+                                    <input type="radio" id="blue">
+                                </label>
+                            </div>
+                            <div class="sidebar__item__color sidebar__item__color--green">
+                                <label for="green">
+                                    Green
+                                    <input type="radio" id="green">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="sidebar__item">
+                            <h4>Popular Size</h4>
+                            <div class="sidebar__item__size">
+                                <label for="large">
+                                    Large
+                                    <input type="radio" id="large">
+                                </label>
+                            </div>
+                            <div class="sidebar__item__size">
+                                <label for="medium">
+                                    Medium
+                                    <input type="radio" id="medium">
+                                </label>
+                            </div>
+                            <div class="sidebar__item__size">
+                                <label for="small">
+                                    Small
+                                    <input type="radio" id="small">
+                                </label>
+                            </div>
+                            <div class="sidebar__item__size">
+                                <label for="tiny">
+                                    Tiny
+                                    <input type="radio" id="tiny">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="sidebar__item">
+                            <div class="latest-product__text">
+                                <h4>Latest Products</h4>
+                                <div class="latest-product__slider owl-carousel">
+                                    <div class="latest-prdouct__slider__item">
+                                        <a href="#" class="latest-product__item">
+                                            <div class="latest-product__item__pic">
+                                                <img src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                                    alt="">
+                                            </div>
+                                            <div class="latest-product__item__text">
+                                                <h6>Crab Pool Security</h6>
+                                                <span>৳700.00</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="latest-product__item">
+                                            <div class="latest-product__item__pic">
+                                                <img src="https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2hpbmclMjB0dnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                                    alt="">
+                                            </div>
+                                            <div class="latest-product__item__text">
+                                                <h6>Crab Pool Security</h6>
+                                                <span>৳300.00</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="latest-product__item">
+                                            <div class="latest-product__item__pic">
+                                                <img src="https://images.unsplash.com/photo-1594032194509-0056023973b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHQlMjBzaGlydHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                                    width="300" alt="">
+                                            </div>
+                                            <div class="latest-product__item__text">
+                                                <h6>Crab Pool Security</h6>
+                                                <span>৳650.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="latest-prdouct__slider__item">
+                                        <a href="#" class="latest-product__item">
+                                            <div class="latest-product__item__pic">
+                                                <img src="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                                    alt="">
+                                            </div>
+                                            <div class="latest-product__item__text">
+                                                <h6>Crab Pool Security</h6>
+                                                <span>৳700.00</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="latest-product__item">
+                                            <div class="latest-product__item__pic">
+                                                <img src="https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2F0Y2hpbmclMjB0dnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                                    alt="">
+                                            </div>
+                                            <div class="latest-product__item__text">
+                                                <h6>Crab Pool Security</h6>
+                                                <span>৳300.00</span>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="latest-product__item">
+                                            <div class="latest-product__item__pic">
+                                                <img src="https://images.unsplash.com/photo-1594032194509-0056023973b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHQlMjBzaGlydHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                                    width="300" alt="">
+                                            </div>
+                                            <div class="latest-product__item__text">
+                                                <h6>Crab Pool Security</h6>
+                                                <span>৳650.00</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-7">
+                    <div class="product__discount">
+                        <div class="section-title product__discount__title">
+                            <h2>Sale Off</h2>
+                        </div>
+                        <div class="row">
+                            <div class="product__discount__slider owl-carousel">
+                                <div class="col-lg-4">
+                                    <div class="product__discount__item">
+                                        <div class="product__discount__item__pic set-bg"
+                                            data-setbg="https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2F0Y2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="featured__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Watch</span>
+                                            <h5><a href="#">Watch</a></h5>
+                                            <div class="product__item__price">৳300.00<span>৳360.00</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="product__discount__item">
+                                        <div class="product__discount__item__pic set-bg"
+                                            data-setbg="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="featured__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Shirt</span>
+                                            <h5><a href="#">Shirt/T-Shirt</a></h5>
+                                            <div class="product__item__price">৳700.00<span>৳760.00</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="product__discount__item">
+                                        <div class="product__discount__item__pic set-bg"
+                                            data-setbg="https://images.unsplash.com/photo-1551489186-cf8726f514f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c25pa2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="featured__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Snikers</span>
+                                            <h5><a href="#">Snikers</a></h5>
+                                            <div class="product__item__price">৳950.00<span>৳1060.00</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="product__discount__item">
+                                        <div class="product__discount__item__pic set-bg"
+                                            data-setbg="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="featured__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Laptop</span>
+                                            <h5><a href="#">Laptop & Computer</a></h5>
+                                            <div class="product__item__price">৳70000.00<span>৳76500.00</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="product__discount__item">
+                                        <div class="product__discount__item__pic set-bg"
+                                            data-setbg="https://images.unsplash.com/photo-1551489186-cf8726f514f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c25pa2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="featured__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Snikers</span>
+                                            <h5><a href="#">Snikers</a></h5>
+                                            <div class="product__item__price">৳950.00<span>৳1060.00</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="product__discount__item">
+                                        <div class="product__discount__item__pic set-bg"
+                                            data-setbg="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNsb3RoZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="featured__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Shirt</span>
+                                            <h5><a href="#">Shirt/T-Shirt</a></h5>
+                                            <div class="product__item__price">৳700.00<span>৳760.00</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter__item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-5">
+                                <div class="filter__sort">
+                                    <span>Sort By</span>
+                                    <select>
+                                        <option value="0">Default</option>
+                                        <option value="0">Default</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="filter__found">
+                                    <h6><span>16</span> Products found</h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-3">
+                                <div class="filter__option">
+                                    <span class="icon_grid-2x2"></span>
+                                    <span class="icon_ul"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳700.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1613418383495-10d3a8757315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtYXJhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳18000.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳70000.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳700.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1613418383495-10d3a8757315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtYXJhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳18000.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳70000.00</h5>
+                                </div>
+                            </div>>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳700.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1613418383495-10d3a8757315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtYXJhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳18000.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳70000.00</h5>
+                                </div>
+                            </div>>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳700.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1613418383495-10d3a8757315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtYXJhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳18000.00</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg"
+                                    data-setbg="https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                                    <ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i> Add To Card</a></li>
+                                    </ul>
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Cash On Pement</a></h6>
+                                    <h5>৳70000.00</h5>
+                                </div>
+                            </div>>
+                        </div>
+                    </div>
+                    <div class="product__pagination">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#"><i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="fixed-bottom">
+        <div class="card float-right">
+            <div class="card-body ">
+                <a href="checkout.html" class="w-100">
+                <button type="submit" class="btn btn-warning text-light"><i class="fa fa-shopping-bag bg-light text-light"></i> <h6 class="text-light">3</h6> Your Collection</button></a>
+
+            </div>
+        </div>
+    </div>
+    <!-- Product Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="text-center text-lg-start bg-light text-muted col-sm-12">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center bg-dark justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none text-light d-lg-block">
+                <span>Cotruct With Us :</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div class="text-light">
+                <a href="#"><i class="fa fa-facebook px-4"></i></a>
+                <a href="#"><i class="fa fa-instagram px-4"></i></a>
+                <a href="#"><i class="fa fa-twitter px-4"></i></a>
+                <a href="#"><i class="fa fa-pinterest px-4"></i></a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            shantobepary575@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 7XXXXXXX85</p>
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            Published by- Shanto Bepary
+            <a class="text-reset fw-bold" href="#">sbrs.com.bd</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
